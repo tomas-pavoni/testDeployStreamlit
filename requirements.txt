@@ -1,3 +1,2 @@
 streamlit==1.47.0
-
-numpy==1.26.4
+reportlab==3.6.10
