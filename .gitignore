@@ -1,18 +1,23 @@
-# .gitignore
+# Virtual env
+.venv/
+venv/
 __pycache__/
-*.py[cod]
-*.so
-*.log
+*.pyc
+
+# macOS
 .DS_Store
-.env
-.venv
-*.egg-info/
-*.pdf
-*.csv
-*.xlsx
-*.ipynb
-build/
+
+# PyInstaller, build artifacts
 dist/
-.mypy_cache/
-*.sqlite
-*.db
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Cache
+*.egg-info/
+.cache/
